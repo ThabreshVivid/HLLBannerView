@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HLLContentView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is header" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9bu-BE-cvH">
+                    <rect key="frame" x="20" y="20" width="560" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.70196078429999997" green="0.78039215689999997" blue="0.83921568629999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zAe-Vu-VZy">
+                    <rect key="frame" x="280" y="290" width="39.5" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="And this is footer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQY-ZV-1qC">
+                    <rect key="frame" x="30" y="530.5" width="540" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.70196078429999997" green="0.78039215689999997" blue="0.83921568629999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.52549019610000003" green="0.67450980390000004" blue="0.95686274510000002" alpha="1" colorSpace="deviceRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="fQY-ZV-1qC" secondAttribute="bottom" constant="50" id="62c-Y8-HHT"/>
+                <constraint firstAttribute="trailing" secondItem="fQY-ZV-1qC" secondAttribute="trailing" constant="30" id="94l-yK-CNh"/>
+                <constraint firstItem="zAe-Vu-VZy" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="9Cb-GS-gvy"/>
+                <constraint firstAttribute="trailing" secondItem="9bu-BE-cvH" secondAttribute="trailing" constant="20" id="bAI-sU-gDY"/>
+                <constraint firstItem="fQY-ZV-1qC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="fT2-k9-fmz"/>
+                <constraint firstItem="9bu-BE-cvH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="gXX-6Z-e8l"/>
+                <constraint firstItem="9bu-BE-cvH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="sc5-LQ-eLV"/>
+                <constraint firstItem="zAe-Vu-VZy" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="uis-XL-TH4"/>
+            </constraints>
+            <connections>
+                <outlet property="indexLabel" destination="zAe-Vu-VZy" id="hPz-fe-b2D"/>
+            </connections>
+        </view>
+    </objects>
+</document>

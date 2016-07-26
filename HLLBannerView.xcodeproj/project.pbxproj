@@ -14,6 +14,9 @@
 		D71E87BA1D474EB500359096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71E87B91D474EB500359096 /* Assets.xcassets */; };
 		D71E87BD1D474EB500359096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71E87BB1D474EB500359096 /* LaunchScreen.storyboard */; };
 		D71E87C81D474EB500359096 /* HLLBannerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D71E87C71D474EB500359096 /* HLLBannerViewUITests.m */; };
+		D71E87D41D4752DB00359096 /* HLLBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D71E87D31D4752DB00359096 /* HLLBannerView.m */; };
+		D71E87DE1D4793E700359096 /* HLLContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D71E87DD1D4793E700359096 /* HLLContentView.m */; };
+		D71E87E01D4793F100359096 /* HLLContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D71E87DF1D4793F100359096 /* HLLContentView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		D71E87C31D474EB500359096 /* HLLBannerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLLBannerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71E87C71D474EB500359096 /* HLLBannerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLBannerViewUITests.m; sourceTree = "<group>"; };
 		D71E87C91D474EB500359096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D71E87D21D4752DB00359096 /* HLLBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLBannerView.h; sourceTree = "<group>"; };
+		D71E87D31D4752DB00359096 /* HLLBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLBannerView.m; sourceTree = "<group>"; };
+		D71E87DC1D4793E700359096 /* HLLContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLContentView.h; sourceTree = "<group>"; };
+		D71E87DD1D4793E700359096 /* HLLContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLContentView.m; sourceTree = "<group>"; };
+		D71E87DF1D4793F100359096 /* HLLContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLLContentView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +91,13 @@
 			children = (
 				D71E87B01D474EB500359096 /* AppDelegate.h */,
 				D71E87B11D474EB500359096 /* AppDelegate.m */,
+				D71E87B61D474EB500359096 /* Main.storyboard */,
 				D71E87B31D474EB500359096 /* ViewController.h */,
 				D71E87B41D474EB500359096 /* ViewController.m */,
-				D71E87B61D474EB500359096 /* Main.storyboard */,
+				D71E87DC1D4793E700359096 /* HLLContentView.h */,
+				D71E87DD1D4793E700359096 /* HLLContentView.m */,
+				D71E87DF1D4793F100359096 /* HLLContentView.xib */,
+				D71E87E11D479EF600359096 /* HLLBannerView */,
 				D71E87B91D474EB500359096 /* Assets.xcassets */,
 				D71E87BB1D474EB500359096 /* LaunchScreen.storyboard */,
 				D71E87BE1D474EB500359096 /* Info.plist */,
@@ -109,6 +121,15 @@
 				D71E87C91D474EB500359096 /* Info.plist */,
 			);
 			path = HLLBannerViewUITests;
+			sourceTree = "<group>";
+		};
+		D71E87E11D479EF600359096 /* HLLBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				D71E87D21D4752DB00359096 /* HLLBannerView.h */,
+				D71E87D31D4752DB00359096 /* HLLBannerView.m */,
+			);
+			name = HLLBannerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D71E87BD1D474EB500359096 /* LaunchScreen.storyboard in Resources */,
+				D71E87E01D4793F100359096 /* HLLContentView.xib in Resources */,
 				D71E87BA1D474EB500359096 /* Assets.xcassets in Resources */,
 				D71E87B81D474EB500359096 /* Main.storyboard in Resources */,
 			);
@@ -214,6 +236,8 @@
 				D71E87B51D474EB500359096 /* ViewController.m in Sources */,
 				D71E87B21D474EB500359096 /* AppDelegate.m in Sources */,
 				D71E87AF1D474EB500359096 /* main.m in Sources */,
+				D71E87D41D4752DB00359096 /* HLLBannerView.m in Sources */,
+				D71E87DE1D4793E700359096 /* HLLContentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
