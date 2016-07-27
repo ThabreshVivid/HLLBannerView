@@ -16,7 +16,7 @@
             startingLineNumber = "226"
             endingLineNumber = "226"
             landmarkName = "-reloadData"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -32,7 +32,7 @@
             startingLineNumber = "143"
             endingLineNumber = "143"
             landmarkName = "-configContentViews"
-            landmarkType = "5">
+            landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
@@ -80,7 +80,7 @@
             startingLineNumber = "163"
             endingLineNumber = "163"
             landmarkName = "-configContentViews"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

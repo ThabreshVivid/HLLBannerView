@@ -181,6 +181,8 @@
 				TargetAttributes = {
 					D71E87A91D474EB500359096 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4B6N4V9BAX;
+						DevelopmentTeamName = "ZhiXiang Xu";
 					};
 					D71E87C21D474EB500359096 = {
 						CreatedOnToolsVersion = 7.3;
@@ -426,6 +428,7 @@
 				D71E87CE1D474EB500359096 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D71E87CF1D474EB500359096 /* Build configuration list for PBXNativeTarget "HLLBannerViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +437,7 @@
 				D71E87D11D474EB500359096 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

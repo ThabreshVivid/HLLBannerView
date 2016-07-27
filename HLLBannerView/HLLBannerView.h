@@ -46,7 +46,6 @@
  */
 - (NSInteger)hll_numberOfItemsOfBannerView:(HLLBannerView *)bannerView;
 
-
 /**
  *  用于定制BannerView中进行滚动的视图样式，可以使用xib进行初始化，也可以使用通过Frame布局的视图，但是如果要是使用Masnory自动布局的视图却不能正常显示
  *
